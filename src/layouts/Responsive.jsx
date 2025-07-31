@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
-import axios, { Axios } from "axios";
-import { FaEarthAsia } from "react-icons/fa6";
-import { Button } from '@heroui/react';
+import  { useEffect, useState } from "react";
+import { FaEarthAsia } from "react-icons/fa6"
 import MyModal from "../Components/myModal";
 const Responsive = ({ isMenuOpen, setMenuOpen }) => {
   const [navmenuitem, setnavitem] = useState([]);
