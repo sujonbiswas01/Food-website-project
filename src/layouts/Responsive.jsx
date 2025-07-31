@@ -1,6 +1,6 @@
 import  { useEffect, useState } from "react";
 import { FaEarthAsia } from "react-icons/fa6"
-import MyModal from "../Components/myModal";
+import MyModal from "../Components/MyModal";
 const Responsive = ({ isMenuOpen, setMenuOpen }) => {
   const [navmenuitem, setnavitem] = useState([]);
  const isopen = true
