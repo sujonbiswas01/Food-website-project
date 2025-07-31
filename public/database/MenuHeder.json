@@ -1,0 +1,67 @@
+[
+    {
+        "id":1,
+        "img":"/images/allmenu.png",
+        "para":"All"
+    },
+    {
+        "id":2,
+        "img":"/images/resturantsicon.png",
+        "para":"Restaurants"
+    },
+    {
+        "id":3,
+        "img":"/images/Hotesicon.png",
+        "para":"Hotels"
+    },
+    {
+        "id":4,
+        "img":"/images/HomeIcon.png",
+        "para":"home services"
+    },
+    {
+        "id":5,
+        "img":"/images/ShopingICon.png",
+        "para":"Shopping"
+    },
+    {
+        "id":6,
+        "img":"/images/Car.png",
+        "para":"Car location"
+    },
+    {
+        "id":7,
+        "img":"/images/Beauti.png",
+        "para":"Beauty & Spa"
+    },
+    {
+        "id":8,
+        "img":"/images/Beauti.png",
+        "para":"Beauty & Spa"
+    },
+    {
+        "id":9,
+        "img":"/images/Park.png",
+        "para":"Park"
+    },
+    {
+        "id":10,
+        "img":"/images/Museum.png",
+        "para":"museum"
+    },
+    {
+        "id":11,
+        "img":"/images/CarWish.png",
+        "para":"Car wash"
+    },
+    {
+        "id":12,
+        "img":"/images/BarsIcon.png",
+        "para":"Bars"
+    },
+    {
+        "id":13,
+        "img":"/images/Gym.png",
+        "para":"Gyms"
+    }
+]
