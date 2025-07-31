@@ -5,7 +5,7 @@ import { Button } from '@heroui/react';
 import MyModal from "../Components/myModal";
 const Responsive = ({ isMenuOpen, setMenuOpen }) => {
   const [navmenuitem, setnavitem] = useState([]);
- const [isopen,setisopen] = useState(true)
+ const isopen = true
   useEffect(() => {
      fetch("/database/db.json")
        .then((response)=>{
