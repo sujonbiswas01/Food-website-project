@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <>
       <MenuHeder />
-      <Container className="bg-[#1677BD] max-w-[1345px] mx-auto rounded-[9px] pb-10 overflow-x-hidden">
-        <h1 className="text-3xl text-[#FFFFFF] ml-0 lg:ml-[99px] py-6 mt-[60px]  text-center md:text-start">
+      <Container className="bg-[#1677BD] mt-14 max-w-[1345px] mx-auto rounded-[9px] pb-10 overflow-x-hidden">
+        <h1 className="text-3xl text-[#FFFFFF] ml-0 lg:ml-[99px] py-5 mt-[14px]  text-center md:text-start">
           Find the best restaurant ratings below
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4  gap-10 px-4 md:px-4 lg:px-10 py-2   sm:ml-0">

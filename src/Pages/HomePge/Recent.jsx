@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Container from '../../Components/Container'
-import { FaArrowLeft } from "react-icons/fa6";
 const Recent = () => {
     const [data,setdata]= useState([]);
     useEffect(()=>{

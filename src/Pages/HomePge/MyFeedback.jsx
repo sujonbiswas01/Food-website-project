@@ -15,7 +15,7 @@ const MyFeedback = () => {
         </div>
       </div>
 
-      <div className="bg-[#F2F2F2] max-w-[1479px] mx-auto px-14">
+      <div className="bg-[#F2F2F2] max-w-[1479px] mx-auto md:px-14">
         <div className=" flex flex-col md:flex-row gap-7 py-16 px-14">
           <div className="pt-30 px-14 ">
             <h2 className="max-w-[502px] font-extrabold mb-6 text-[26px] leading-[100%]">
