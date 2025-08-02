@@ -19,7 +19,7 @@ const Footer = () => {
 
     }
   return (
-    <footer className="px-14 flex flex-col md:flex-row justify-center items-center md:justify-around py-16">
+    <footer className="px-14 flex flex-col md:flex-row justify-center  md:justify-around py-16">
       <div>{footer("About", descriptionA)}</div>
       <div>{footer("MyFeedback", descriptionB)}</div>
       <div>
