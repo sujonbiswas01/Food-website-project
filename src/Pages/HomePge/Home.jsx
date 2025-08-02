@@ -2,6 +2,8 @@ import React from 'react'
 import MenuHeder from '../../Components/MenuHeder'
 import Carousel from './Carousel'
 import Container from '../../Components/Container'
+import Trends from './Trends'
+import MyFeedback from './MyFeedback'
 
 const Home = () => {
   return (
@@ -47,6 +49,8 @@ const Home = () => {
           />
         </div>
       </Container>
+        <Trends/>
+        <MyFeedback/>
     </>
   );
 }
