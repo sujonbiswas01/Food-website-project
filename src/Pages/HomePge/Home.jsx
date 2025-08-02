@@ -4,12 +4,14 @@ import Carousel from './Carousel'
 import Container from '../../Components/Container'
 import Trends from './Trends'
 import MyFeedback from './MyFeedback'
+import Recent from './Recent'
+import Footer from './Footer'
 
 const Home = () => {
   return (
     <>
       <MenuHeder />
-      <Container className="bg-[#1677BD] max-w-[1345px] mx-auto rounded-[9px] pb-10">
+      <Container className="bg-[#1677BD] max-w-[1345px] mx-auto rounded-[9px] pb-10 overflow-x-hidden">
         <h1 className="text-3xl text-[#FFFFFF] ml-0 lg:ml-[99px] py-6 mt-[60px]  text-center md:text-start">
           Find the best restaurant ratings below
         </h1>
@@ -51,6 +53,8 @@ const Home = () => {
       </Container>
         <Trends/>
         <MyFeedback/>
+        <Recent/>
+        <Footer/>
     </>
   );
 }

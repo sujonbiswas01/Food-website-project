@@ -1,6 +1,3 @@
-import React from 'react'
-import Container from '../../Components/Container'
-
 const Carousel = ({title,des,image,ratingTitle,image1,rating}) => {
   return (
     <section className="bg-white  pb-4 rounded-[10px]">

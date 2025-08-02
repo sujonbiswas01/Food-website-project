@@ -23,9 +23,9 @@ const Trends = () => {
                 <div className='px-2 space-y-3 pt-3'>
                     <h2 className='font-semibold text-2xl text-[#232323] leading-[100%]'>{items.headding}</h2>
                     <p className='text-[#8F8F8F]'>{items.des}</p>
-                    <div className='flex justify-between'>
+                    <div className='flex  md:justify-between'>
                         <img src={items.img} alt="" />
-                        <p>{items.Rating}</p>
+                        <p className='max-w-[280px] mx-auto'>{items.Rating}</p>
                     </div>
                 </div>
 
