@@ -6,7 +6,6 @@ import Trends from './Trends'
 import MyFeedback from './MyFeedback'
 import Recent from './Recent'
 import Footer from './Footer'
-
 const Home = () => {
   return (
     <>
@@ -16,6 +15,7 @@ const Home = () => {
           Find the best restaurant ratings below
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4  gap-10 px-4 md:px-4 lg:px-10 py-2   sm:ml-0">
+
           <Carousel
             title="Bottega"
             des="The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
