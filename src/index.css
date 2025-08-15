@@ -3,3 +3,17 @@
 /* Note: You may need to change the path to fit your project structure */
 @source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 @custom-variant dark (&:is(.dark *));
+
+.bg-hero-gradient{
+    position: relative;
+}
+.bg-hero-gradient::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background:linear-gradient(to right,#101010C4,#10101000);
+}

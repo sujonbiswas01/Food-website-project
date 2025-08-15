@@ -17,7 +17,7 @@ const Responsive = ({ isMenuOpen, setMenuOpen }) => {
   return (
     <div>
       {isMenuOpen && (
-        <div className="h-screen fixed sm:hidden backdrop-blur-xl top-0 text-black w-full  transition duration-300 overflow-x-hidden overflow-y-hidden ">
+        <div className="h-screen fixed sm:hidden backdrop-blur-xl bg-black top-0 text-white w-full  transition duration-300 overflow-x-hidden overflow-y-hidden z-50">
           <div onClick={()=>setMenuOpen(!isMenuOpen)} className="flex justify-end text-white right-5 top-5 fixed">close</div>
           <div className="flex flex-col justify-center items-center h-[50vh]">
           

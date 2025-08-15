@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import LocationIcon from "../../assets/svg/Location";
 import ShortICon from "../../assets/svg/ShorIcon";
-
+import {Card, Skeleton} from "@heroui/react";
 const AllResturant = () => {
   const [ResData, setResData] = useState([]);
   useEffect(() => {
@@ -35,7 +35,9 @@ const AllResturant = () => {
               return (
                 <div key={i} className="">
                   <div className="flex gap-7 mt-3 ">
-                    <img src={item.img} alt="" />
+                    <Card>
+                        <Skeleton isLoaded={true} className="w-[400px] h-[189px]"><img src={item.img}  /></Skeleton>
+                    </Card>
                     <div className="space-y-2">
                       <h3 className="font-semibold text-[22px]">
                         {item.headding}
